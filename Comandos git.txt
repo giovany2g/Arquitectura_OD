@@ -1,0 +1,26 @@
+comandos Git
+
+Flujo de trabajo:
+
+git merge (Es para el repositorio local)
+git push (Va para el repositorio origen)
+git branch -b "nombre de la rama"
+git commit
+git merge --no-ff "rama" (hace un commit e ignora todos los commits realizados en la rama)
+git checkout "rama" (Cambia a la rama escrita)
+git tag (Es para etiquetar el repositorio)
+
+Para las verciones la convencion es:
+V0.0.0
+ m r h
+
+	m = migración
+	r = realise
+	h = hotfix
+
+La rama " mastar ":
+Para modificar esto se debe hacer mediante un hotfix
+
+La rama " develop ":
+En esta rama todo lo que se haga se debe hacer un feature donde todo lo que se trabaje es algo nuevo
+por lo tanto nada generara un conflicto
